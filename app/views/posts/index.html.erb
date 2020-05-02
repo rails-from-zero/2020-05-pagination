@@ -1,3 +1,5 @@
+<%= paginate @posts %>
+
 <% @posts.each do |post| %>
   <article>
     <h3>
@@ -9,3 +11,5 @@
     </div>
   </article>
 <% end %>
+
+<%= paginate @posts %>

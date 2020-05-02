@@ -1,0 +1,11 @@
+.pagination {
+    a {
+        text-decoration: none
+    }
+
+    span.disabled, a {
+        margin-right: 1em;
+        border: 1px solid #ccc;
+        padding: .5em 1em;
+    }
+}
